@@ -35,6 +35,9 @@ namespace MethodsExercise
             MoreMethods.Multiply(5, 9);
             MoreMethods.Divide(25, 5);
 
+            //bonus exercise
+            MoreMethods.AddParams(5, 6, 2, 2, 3);
+
         }
     }
 }

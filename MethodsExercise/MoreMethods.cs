@@ -29,6 +29,15 @@ namespace MethodsExercise
             int sum = num1 / num2;
             Console.WriteLine(sum);
         }
-       
+
+        public static void AddParams(params int[] number)
+        {
+            int sum = 0;
+            sum = sum + number.Length;
+            foreach (int i in number) 
+            {
+            Console.WriteLine(sum + i);
+            }
+        }      
     }
 }
